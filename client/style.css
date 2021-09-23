@@ -8,7 +8,7 @@
 
 
 body {
-    background: rgb(213, 212, 212);
+    background: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -20,15 +20,16 @@ header {
     width: 100vw;
     height: 75px;
     display: flex;
-    background-color: rgb(212, 216, 216);
+    background: #FFFFFF;
     align-items: center;
-    color: black;
+    color: rgb(59, 57, 57);
     padding: 0 7%;
     box-shadow: 0 2px 2px 0px rgba(0,0,0,.4);
 }
 
 .brand {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 100;
 }
 
 ul {
@@ -40,7 +41,7 @@ ul {
 
 li a {
     text-decoration: none;
-    color: black;
+    color: rgb(59, 57, 57);
     font-size: 18px;
 }
 
@@ -51,12 +52,43 @@ li a {
 .container {
     width: 100vw;
     height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container h1 {
-    color: black;
+    color: rgb(59, 57, 57);
     font-size: 4em;
     text-align: center;
     position: relative;
     top: 50px;
+}
+
+.cookie {
+    max-width: 300px;
+    position: relative;
+    top: 100px;
+    
+}
+
+button {
+    padding: 10px 30px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 75px;
+    cursor: pointer;
+}
+
+.display-score {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 75px;
+}
+
+.score {
+    font-size: 4em;
+    text-align: center;
 }
