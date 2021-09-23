@@ -69,6 +69,7 @@ li a {
     max-width: 300px;
     position: relative;
     top: 100px;
+    cursor: pointer;
     
 }
 
